@@ -1,8 +1,8 @@
-package com.patika.mustafa.java101.righttriangle;
+package com.patika.mustafa.java101.triangle;
 
 import java.util.Scanner;
 
-public class CalculateAreaOfRightTriangle {
+public class CalculateAreaOfTriangle {
 	
 	public static void main(String[] args) {
 		
