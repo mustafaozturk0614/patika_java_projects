@@ -22,7 +22,7 @@ public class AmountWithVat {
 		} else {
 			System.out.println("lütfen geçerli bir tutar giriniz");
 		}
-		
+		scanner.close();
 	}
 	
 }
