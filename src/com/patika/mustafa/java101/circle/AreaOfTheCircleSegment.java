@@ -17,7 +17,7 @@ public class AreaOfTheCircleSegment {
 		centerAngle = scanner.nextDouble();
 		segmentArea = (PI * Math.pow(radius, 2) * centerAngle) / CIRCLEDEGREE;
 		System.out.println("merkez açısının ölçüsü " + centerAngle + " olan daire diliminin alanı: " + segmentArea);
-		
+		scanner.close();
 	}
 	
 	public static void main(String[] args) {

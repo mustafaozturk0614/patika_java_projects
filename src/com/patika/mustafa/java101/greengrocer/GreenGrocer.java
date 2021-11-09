@@ -10,6 +10,11 @@ public class GreenGrocer {
 	private final double AUBERGINEUNITCHARGE = 5.00;
 	private double amount = 0;
 	
+	public static void main(String[] args) {
+		GreenGrocer greenGrocer = new GreenGrocer();
+		greenGrocer.shoppingAmount();
+	}
+	
 	public void shoppingAmount() {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("kaç kilo armut ");
@@ -23,10 +28,7 @@ public class GreenGrocer {
 		System.out.println("kaç kilo patlıcan ");
 		amount = amount + AUBERGINEUNITCHARGE * (scanner.nextDouble());
 		System.out.println("Toplam Tutar: " + amount + " TL");
+		scanner.close();
 	}
 	
-	public static void main(String[] args) {
-		GreenGrocer greenGrocer = new GreenGrocer();
-		greenGrocer.shoppingAmount();
-	}
 }
