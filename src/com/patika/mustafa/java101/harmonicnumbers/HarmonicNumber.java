@@ -13,9 +13,12 @@ public class HarmonicNumber {
 		for (int i = 1; i <= number; i++) {
 			
 			sum += 1.0 / i;
-			
+			System.out.printf(" (1/%d) ", i);
+			if (i < number)
+				System.out.print("+");
 		}
-		System.out.println(sum);
+		
+		System.out.println("\n sonuç: " + sum);
 		
 	}
 	
