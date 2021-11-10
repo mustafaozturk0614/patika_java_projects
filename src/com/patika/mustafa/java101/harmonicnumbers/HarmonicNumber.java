@@ -3,7 +3,7 @@ package com.patika.mustafa.java101.harmonicnumbers;
 import java.util.Scanner;
 
 public class HarmonicNumber {
-	
+	// Harmonik
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
