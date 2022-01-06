@@ -3,7 +3,7 @@ package com.patika.mustafa.java101.repeatingevennumbers;
 public class RepeatingEvenNumbers {
 	
 	public static void main(String[] args) {
-		int[] list = { 5, 6, 7, 2, 6, 8, 2, 4, 5, 4 };
+		int[] list = { 8, 6, 7, 2, 6, 8, 2, 4, 5, 4 };
 		int[] dublicate = new int[list.length];
 		int index = 0;
 		int count = 0;
